@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.DependencyInjection;
+using System;
 
 namespace ConsoleNetCoreDemo
 {
@@ -8,9 +9,9 @@ namespace ConsoleNetCoreDemo
         {
             Console.WriteLine("Hello World!");
 
+            //new CnBlogSubscribeTool().Build();
 
-
-            new CnBlogSubscribeTool().Build();
+            new EventBusTool().Build();
 
             Console.ReadKey();
         }
