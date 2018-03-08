@@ -1,0 +1,10 @@
+﻿{
+  "Name": "CnBlogSubscribeTool",
+  "Address": "lgjy143@163.com",
+  "Host": "smtp.163.com",
+  "Port": 25,
+  "Password": "lgjy14312597",
+  "ReceiveList": [
+    "565007523@qq.com"
+  ]
+}
